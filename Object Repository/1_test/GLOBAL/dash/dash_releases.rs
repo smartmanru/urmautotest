@@ -1,103 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>checkbox_all</name>
+   <name>dash_releases</name>
    <tag></tag>
-   <elementGuidId>c0714693-3861-458f-a77c-e6035868484d</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@testid='updateall-check']/label[1]/input</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//div[@testid='urm-updateall-check']/label[1]/input</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <elementGuidId>ded2308b-438a-4db6-b7e6-0266d7ff43c3</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ino3f7d8f28</value>
+      <value>oa69bb528</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>title</name>
       <type>Main</type>
-      <value>ino3f7d8f28</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>checkbox</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onchange</name>
-      <type>Main</type>
-      <value>var e=event||window.event,o=this;Wt._p_.update(o,'s1083',e,true);</value>
+      <value>Релизы</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>testid</name>
+      <type>Main</type>
+      <value>field-button-releases</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>var e=event||window.event,o=this;if(e.ctrlKey||e.metaKey||(Wt3_3_11.button(e) > 1))return true;else{if($(o).hasClass('disabled')){Wt3_3_11.cancelEvent(e);return;}Wt._p_.update(o,'s4dda',e,true);}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-default urm-toolbar-button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_self</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/urmweb/system/blotter/releases</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@testid='urm-updateall-check']/label[1]/input</value>
+      <value>id(&quot;oa69bb528&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//input[@id='ino3f7d8f28']</value>
+      <value>//a[@id='oa69bb528']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//label[@id='o3f7d8f28']/input</value>
+      <value>//div[@id='urm-toolbar']/div/div/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Импортировать новый элемент'])[1]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Определение информационных систем, базового ПО и инфраструктуры'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Импортировать из репозитория'])[1]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='АДМИНИСТРИРОВАНИЕ'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Экпортировать все существующие элементы'])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Поиск:'])[1]/preceding::a[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Нажмите на кнопку для подтверждения операции:'])[2]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Конфигурация'])[1]/preceding::a[6]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <value>//a[contains(@href, '/urmweb/system/blotter/releases')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[2]/div/div/div/div/div/label/input</value>
+      <value>//div[2]/div/div/a</value>
    </webElementXpaths>
 </WebElementEntity>

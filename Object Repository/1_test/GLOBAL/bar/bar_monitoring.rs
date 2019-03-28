@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>online-ROOK</name>
+   <name>bar_monitoring</name>
    <tag></tag>
-   <elementGuidId>9352df92-3ce7-4bf6-8ba1-d976324ef971</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//span[@id='oa69b5667']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@testid = 'field-note' and (text() = 'Онлайн-руководство по тому как настроить инстанс URM, его ресурсы, ограничения и производительность' or . = 'Онлайн-руководство по тому как настроить инстанс URM, его ресурсы, ограничения и производительность')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>3cf7c641-db21-45f7-9a23-352b6be1229a</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -28,69 +18,62 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>oa69b5667</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>testid</name>
-      <type>Main</type>
-      <value>field-note</value>
+      <value>oa69bb102</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Онлайн-руководство по тому как настроить инстанс URM, его ресурсы, ограничения и производительность</value>
+      <value>МОНИТОРИНГ</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;oa69b5667&quot;)</value>
+      <value>id(&quot;oa69bb102&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//span[@id='oa69b5667']</value>
+      <value>//span[@id='oa69bb102']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='urm-info']/h5/span/span</value>
+      <value>//span[@id='oa69bb101']/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='АДМИНИСТРИРОВАНИЕ'])[1]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ОПЕРАЦИИ'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Выход'])[1]/following::span[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='РЕЛИЗЫ'])[1]/following::span[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Операции'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ДОКУМЕНТАЦИЯ'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Руководство'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Отобразить информацию категории'])[1]/preceding::span[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//h5/span/span</value>
+      <value>//li[4]/a/span/span</value>
    </webElementXpaths>
 </WebElementEntity>

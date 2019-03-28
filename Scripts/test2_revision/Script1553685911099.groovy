@@ -36,3 +36,7 @@ WebUI.setText(findTestObject('input_name'), 'var')
 
 WebUI.click(findTestObject('1_test/CONF/IS/PROD/REV/ex_create_rev'))
 
+WebUI.getAttribute(findTestObject('Page_SURPDEV/draft_revision'), 'id')
+
+WebUI.executeJavaScript('', [])
+

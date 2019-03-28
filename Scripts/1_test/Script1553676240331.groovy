@@ -28,7 +28,9 @@ WebUI.waitForElementVisible(findTestObject('online-ROOK'), 5)
 
 WebUI.navigateToUrl('https://urm.space/urmweb/administration/mirrors/view/mirror/core')
 
-WebUI.click(findTestObject('1_test/Page_SURPDEV/1button_in table'))
+WebUI.waitForElementClickable(findTestObject('Page_SURPDEV1/button_'), 5)
+
+WebUI.click(findTestObject('Page_SURPDEV1/button_'))
 
 WebUI.check(findTestObject('1_test/Page_SURPDEV/checkbox_all'))
 

@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>1button_in table</name>
+   <name>dash_stat</name>
    <tag></tag>
-   <elementGuidId>efb88b11-f379-4832-96a1-e1c675f24216</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//button[@id='o3f7d8ef3']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Экспортировать в репозиторий' or . = 'Экспортировать в репозиторий')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>45a571c8-ae6f-4c85-9838-5f4ed1d4f241</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,97 +11,110 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>o3f7d8ef3</value>
+      <value>oa69bb52c</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Статистика</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>testid</name>
       <type>Main</type>
-      <value>urm-table-buttons::1</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
+      <value>field-button-statistics</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>var e=event||window.event,o=this;if($(o).hasClass('disabled')){Wt3_3_11.cancelEvent(e);return;}Wt._p_.update(o,'s1063',e,true);</value>
+      <value>var e=event||window.event,o=this;if(e.ctrlKey||e.metaKey||(Wt3_3_11.button(e) > 1))return true;else{if($(o).hasClass('disabled')){Wt3_3_11.cancelEvent(e);return;}Wt._p_.update(o,'s4de6',e,true);}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-sm btn btn-default with-label</value>
+      <value>btn btn-default urm-toolbar-button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>target</name>
       <type>Main</type>
-      <value>Экспортировать в репозиторий</value>
+      <value>_self</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/urmweb/system/blotter/statistics</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;o3f7d8ef3&quot;)</value>
+      <value>id(&quot;oa69bb52c&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//button[@id='o3f7d8ef3']</value>
+      <value>//a[@id='oa69bb52c']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='o3f7d8ef2']/button</value>
+      <value>//div[@id='urm-toolbar']/div/div[6]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Репозиторий инстанса'])[3]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Специальная информация сервера - настройки пользователя, фоновые задачи и их результаты'])[1]/following::a[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='(репозиторий)'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='АДМИНИСТРИРОВАНИЕ'])[1]/following::a[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Импортировать из репозитория'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Система'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Импортировать новый элемент'])[1]/preceding::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Релизы'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <value>//a[contains(@href, '/urmweb/system/blotter/statistics')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[3]/div[2]/div/div/div/div[2]/div/div/button</value>
+      <value>//div[6]/a</value>
    </webElementXpaths>
 </WebElementEntity>

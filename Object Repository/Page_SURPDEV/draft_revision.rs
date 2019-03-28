@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>configur</name>
+   <name>draft_revision</name>
    <tag></tag>
-   <elementGuidId>e529ed43-d43f-403e-9439-aaa46b8ac8c3</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <elementGuidId>803ab1da-74ea-4703-82a4-46bad2791ebf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='oa69bd031']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = '(черновик)' or . = '(черновик)')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,50 +31,62 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>oa69b79ec</value>
+      <value>oa69bd031</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>КОНФИГУРАЦИЯ</value>
+      <value>(черновик)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;oa69b79ec&quot;)</value>
+      <value>id(&quot;oa69bd031&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//span[@id='oa69b79ec']</value>
+      <value>//span[@id='oa69bd031']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//span[@id='oa69b79eb']/span</value>
+      <value>//td[@id='oa69bd028']/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='РЕЛИЗЫ'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(отсутствует)'])[3]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ОПЕРАЦИИ'])[1]/preceding::span[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(отсутствует)'])[2]/following::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Создать ревизию'])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Изменить название'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//span/span</value>
+      <value>//tr[2]/td[7]/span</value>
    </webElementXpaths>
 </WebElementEntity>

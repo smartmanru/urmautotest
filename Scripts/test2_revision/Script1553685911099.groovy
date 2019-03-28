@@ -28,15 +28,25 @@ WebUI.waitForElementVisible(findTestObject('online-ROOK'), 5)
 
 WebUI.navigateToUrl('https://urm.space/urmweb/user/configuration/context/app/mysystem/Regression_test/view/revisions')
 
+var = WebUI.verifyElementPresent(findTestObject('1_test/CONF/IS/PROD/REV/table_fixcontains_fix'), 5, FailureHandling.OPTIONAL)
+
+print(var)
+
+if (var == true) {
+    WebUI.click(findTestObject('1_test/CONF/IS/PROD/REV/table_fix_rev'))
+
+    WebUI.click(findTestObject('1_test/CONF/IS/PROD/REV/table_delete_revision'))
+
+    WebUI.click(findTestObject('1_test/CONF/IS/PROD/REV/exec_delete_button'))
+
+    WebUI.delay(2)
+}
+
 WebUI.click(findTestObject('1_test/CONF/IS/PROD/REV/table_create_revision'))
 
 WebUI.setText(findTestObject('input_code'), 'var')
 
 WebUI.setText(findTestObject('input_name'), 'var')
 
-WebUI.click(findTestObject('1_test/CONF/IS/PROD/REV/ex_create_rev'))
-
-WebUI.getAttribute(findTestObject('Page_SURPDEV/draft_revision'), 'id')
-
-WebUI.executeJavaScript('', [])
+WebUI.click(findTestObject('1_test/CONF/IS/PROD/REV/run.execute'))
 

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>table_fix_rev</name>
+   <tag></tag>
+   <elementGuidId>638e9de4-a93e-453c-bdab-b9a6a2c54a85</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@testid='urm-table']/div/table/tbody/tr/td[7]/span[contains(text(),'(черновик)')]/../../td[1]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@testid='urm-table']/div/table/tbody/tr/td[7]/span[contains(text(),'(черновик)')]/../../td[1]/input</value>
+   </webElementProperties>
+</WebElementEntity>

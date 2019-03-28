@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>table_create_revision</name>
+   <name>table_delete_revision</name>
    <tag></tag>
-   <elementGuidId>2db6c107-dd81-4205-a9ca-f9922dc1bebe</elementGuidId>
+   <elementGuidId>50de8de4-4095-40e0-bdb8-a345df938199</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[(text() = 'Создать ревизию' or . = 'Создать ревизию')]</value>
+         <value>//button[(text() = 'Удалить ревизию' or . = 'Удалить ревизию')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>testid</name>
       <type>Main</type>
-      <value>urm-table-buttons::1</value>
+      <value>urm-table-buttons::6</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Создать ревизию</value>
+      <value>Удалить ревизию</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

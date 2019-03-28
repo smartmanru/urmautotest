@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//button[@id='oa69c17fc']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@testid = 'urm-table-buttons::1' and (contains(text(), 'Экспортировать в репозиторий') or contains(., 'Экспортировать в репозиторий'))]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

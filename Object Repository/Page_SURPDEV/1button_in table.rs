@@ -6,15 +6,15 @@
    <elementGuidId>efb88b11-f379-4832-96a1-e1c675f24216</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//button[@testid = 'urm-table-buttons::1' and @type = 'button']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@id='o3f7d8ef3']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@testid = 'urm-table-buttons::1' and (contains(text(), 'Экспортировать в репозиторий') or contains(., 'Экспортировать в репозиторий'))]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <value>urm-table-buttons::1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -59,7 +59,7 @@
       <value>btn btn-sm btn btn-default with-label</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>

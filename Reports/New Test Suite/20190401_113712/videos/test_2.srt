@@ -1,0 +1,72 @@
+1
+00:00:01,323 --> 00:00:01,324
+1. openBrowser("https://urm.space/urmweb/system/login")
+
+2
+00:00:08,543 --> 00:00:08,545
+5. waitForElementClickable(findTestObject("1_test/login/login"), 5)
+
+3
+00:00:08,680 --> 00:00:08,682
+9. setText(findTestObject("Object Repository/1_test/login/login"), "man")
+
+4
+00:00:09,061 --> 00:00:09,065
+13. setEncryptedText(findTestObject("Object Repository/1_test/login/password"), "cspISQ8CZDY=")
+
+5
+00:00:09,582 --> 00:00:09,585
+17. click(findTestObject("Object Repository/1_test/login/button_login"))
+
+6
+00:00:09,845 --> 00:00:09,849
+21. waitForElementVisible(findTestObject("online-ROOK"), 5)
+
+7
+00:00:10,617 --> 00:00:10,620
+25. navigateToUrl("https://urm.space/urmweb/user/configuration/context/app/mysystem/Regression_test/view/revisions")
+
+8
+00:00:12,629 --> 00:00:12,633
+29. var = verifyElementPresent(findTestObject("1_test/CONF/IS/PROD/REV/table_fixcontains_fix"), 5, OPTIONAL)
+
+9
+00:00:12,978 --> 00:00:12,980
+33. print(var)
+
+10
+00:00:12,993 --> 00:00:12,995
+37. if (var == true)
+
+11
+00:00:12,997 --> 00:00:12,998
+1. click(findTestObject("1_test/CONF/IS/PROD/REV/table_fix_rev"))
+
+12
+00:00:13,561 --> 00:00:13,563
+5. click(findTestObject("1_test/CONF/IS/PROD/REV/table_delete_revision"))
+
+13
+00:00:13,830 --> 00:00:13,832
+9. click(findTestObject("1_test/CONF/IS/PROD/REV/exec_delete_button"))
+
+14
+00:00:14,229 --> 00:00:14,232
+13. delay(2)
+
+15
+00:00:16,427 --> 00:00:16,431
+41. click(findTestObject("1_test/CONF/IS/PROD/REV/table_create_revision"))
+
+16
+00:00:16,712 --> 00:00:16,714
+45. setText(findTestObject("input_code"), "var")
+
+17
+00:00:17,620 --> 00:00:17,621
+49. setText(findTestObject("input_name"), "var")
+
+18
+00:00:17,994 --> 00:00:17,997
+53. click(findTestObject("1_test/CONF/IS/PROD/REV/run.execute"))
+

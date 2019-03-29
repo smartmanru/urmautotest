@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Chrome 73.0.3683.86,,2019-03-29 14:49:37,2019-03-29 14:50:15,"38,451s",FAILED
+,,,,,,
+Test Cases/1_test,Chrome 73.0.3683.86,,2019-03-29 14:49:37,2019-03-29 14:49:54,"16,904s",FAILED
+"openBrowser(""https://urm.space/urmweb/system/login"")",Chrome 73.0.3683.86,,2019-03-29 14:49:38,2019-03-29 14:49:46,"8,429s",PASSED
+"waitForElementClickable(findTestObject(""1_test/login/login""), 5)",Chrome 73.0.3683.86,,2019-03-29 14:49:46,2019-03-29 14:49:46,"0,245s",PASSED
+"setText(findTestObject(""Object Repository/1_test/login/login""), ""man"")",Chrome 73.0.3683.86,,2019-03-29 14:49:46,2019-03-29 14:49:47,"0,374s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/1_test/login/password""), ""cspISQ8CZDY="")",Chrome 73.0.3683.86,,2019-03-29 14:49:47,2019-03-29 14:49:47,"0,633s",PASSED
+"click(findTestObject(""Object Repository/1_test/login/button_login""))",Chrome 73.0.3683.86,,2019-03-29 14:49:47,2019-03-29 14:49:48,"0,245s",PASSED
+"waitForElementVisible(findTestObject(""online-ROOK""), 5)",Chrome 73.0.3683.86,,2019-03-29 14:49:48,2019-03-29 14:49:48,"0,728s",PASSED
+"navigateToUrl(""https://urm.space/urmweb/administration/mirrors/view/mirror/core"")",Chrome 73.0.3683.86,,2019-03-29 14:49:48,2019-03-29 14:49:51,"2,113s",PASSED
+"waitForElementClickable(findTestObject(""Page_SURPDEV1/button_""), 5)",Chrome 73.0.3683.86,,2019-03-29 14:49:51,2019-03-29 14:49:51,"0,289s",PASSED
+"click(findTestObject(""Page_SURPDEV1/button_""))",Chrome 73.0.3683.86,,2019-03-29 14:49:51,2019-03-29 14:49:51,"0,263s",PASSED
+"check(findTestObject(""1_test/Page_SURPDEV/checkbox_all""))",Chrome 73.0.3683.86,,2019-03-29 14:49:51,2019-03-29 14:49:52,"0,700s",FAILED
+,,,,,,
+Test Cases/test2_revision,Chrome 73.0.3683.86,,2019-03-29 14:49:54,2019-03-29 14:50:14,"20,134s",PASSED
+"openBrowser(""https://urm.space/urmweb/system/login"")",Chrome 73.0.3683.86,,2019-03-29 14:49:55,2019-03-29 14:50:01,"6,217s",PASSED
+"waitForElementClickable(findTestObject(""1_test/login/login""), 5)",Chrome 73.0.3683.86,,2019-03-29 14:50:01,2019-03-29 14:50:01,"0,294s",PASSED
+"setText(findTestObject(""Object Repository/1_test/login/login""), ""man"")",Chrome 73.0.3683.86,,2019-03-29 14:50:01,2019-03-29 14:50:01,"0,367s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/1_test/login/password""), ""cspISQ8CZDY="")",Chrome 73.0.3683.86,,2019-03-29 14:50:01,2019-03-29 14:50:02,"0,336s",PASSED
+"click(findTestObject(""Object Repository/1_test/login/button_login""))",Chrome 73.0.3683.86,,2019-03-29 14:50:02,2019-03-29 14:50:02,"0,205s",PASSED
+"waitForElementVisible(findTestObject(""online-ROOK""), 5)",Chrome 73.0.3683.86,,2019-03-29 14:50:02,2019-03-29 14:50:03,"0,901s",PASSED
+"navigateToUrl(""https://urm.space/urmweb/user/configuration/context/app/mysystem/Regression_test/view/revisions"")",Chrome 73.0.3683.86,,2019-03-29 14:50:03,2019-03-29 14:50:06,"3,587s",PASSED
+"var = verifyElementPresent(findTestObject(""1_test/CONF/IS/PROD/REV/table_fixcontains_fix""), 5, OPTIONAL)",Chrome 73.0.3683.86,,2019-03-29 14:50:06,2019-03-29 14:50:07,"0,265s",PASSED
+print(var),Chrome 73.0.3683.86,,2019-03-29 14:50:07,2019-03-29 14:50:07,"0,011s",PASSED
+if (var == true),Chrome 73.0.3683.86,,2019-03-29 14:50:07,2019-03-29 14:50:10,"3,626s",PASSED
+"click(findTestObject(""1_test/CONF/IS/PROD/REV/table_create_revision""))",Chrome 73.0.3683.86,,2019-03-29 14:50:10,2019-03-29 14:50:11,"0,203s",PASSED
+"setText(findTestObject(""input_code""), ""var"")",Chrome 73.0.3683.86,,2019-03-29 14:50:11,2019-03-29 14:50:11,"0,808s",PASSED
+"setText(findTestObject(""input_name""), ""var"")",Chrome 73.0.3683.86,,2019-03-29 14:50:11,2019-03-29 14:50:12,"0,438s",PASSED
+"click(findTestObject(""1_test/CONF/IS/PROD/REV/run.execute""))",Chrome 73.0.3683.86,,2019-03-29 14:50:12,2019-03-29 14:50:12,"0,193s",PASSED

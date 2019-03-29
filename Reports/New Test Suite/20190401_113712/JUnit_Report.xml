@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="44" tests="1" failures="1" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="1" errors="0" time="44" timestamp="2019-04-01 11:37:15" hostname="1q - 192.168.209.129" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\1q\\Katalon Studio\\urmautotest\\Reports\\New Test Suite\\20190401_113712"/>
+         <property name="logFiles" value="C:\\Users\\1q\\Katalon Studio\\urmautotest\\Reports\\New Test Suite\\20190401_113712\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\1q\\Katalon Studio\\urmautotest\\Reports\\New Test Suite\\20190401_113712\\1554107855056.png"/>
+         <property name="hostName" value="1q - 192.168.209.129"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="192.168.209.129"/>
+         <property name="sessionId" value="abfc63ab8370eb3537818e72254ddb14"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1_test" classname="Test Cases/1_test" status="FAILED">
+         <failure type="FAILED" message="Test Cases/1_test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 1_test.run(1_test:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554107832431.run(TempTestSuite1554107832431.groovy:35)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1553676240331.run(Script1553676240331.groovy:57)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-04-01 11:37:15 - [TEST_CASE][FAILED] - Test Cases/1_test: Test Cases/1_test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 1_test.run(1_test:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554107832431.run(TempTestSuite1554107832431.groovy:35)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1553676240331.run(Script1553676240331.groovy:57)
+	... 13 more
+
+
+2019-04-01 11:37:17 - [TEST_STEP][PASSED] - openBrowser("https://urm.space/urmweb/system/login"): Browser is opened with url: 'https://urm.space/urmweb/system/login'
+
+2019-04-01 11:37:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-01 11:37:19 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-01 11:37:27 - [MESSAGE][PASSED] - Browser is opened with url: 'https://urm.space/urmweb/system/login'
+
+2019-04-01 11:37:27 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("1_test/login/login"), 5): Object 'Object Repository/1_test/login/login' is clickable
+
+2019-04-01 11:37:28 - [MESSAGE][PASSED] - Object 'Object Repository/1_test/login/login' is clickable
+
+2019-04-01 11:37:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1_test/login/login"), "man"): Text 'man' is set on object 'Object Repository/1_test/login/login'
+
+2019-04-01 11:37:28 - [MESSAGE][PASSED] - Text 'man' is set on object 'Object Repository/1_test/login/login'
+
+2019-04-01 11:37:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/1_test/login/password"), "cspISQ8CZDY="): Text ****** has been set on object 'Object Repository/1_test/login/password'
+
+2019-04-01 11:37:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1_test/login/password'
+
+2019-04-01 11:37:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1_test/login/button_login")): Object: 'Object Repository/1_test/login/button_login' is clicked on
+
+2019-04-01 11:37:30 - [MESSAGE][PASSED] - Object: 'Object Repository/1_test/login/button_login' is clicked on
+
+2019-04-01 11:37:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("online-ROOK"), 5): Object 'Object Repository/online-ROOK' is visible
+
+2019-04-01 11:37:30 - [MESSAGE][PASSED] - Object 'Object Repository/online-ROOK' is visible
+
+2019-04-01 11:37:30 - [TEST_STEP][PASSED] - navigateToUrl("https://urm.space/urmweb/administration/mirrors/view/mirror/core"): Navigate to 'https://urm.space/urmweb/administration/mirrors/view/mirror/core' successfully
+
+2019-04-01 11:37:33 - [MESSAGE][PASSED] - Navigate to 'https://urm.space/urmweb/administration/mirrors/view/mirror/core' successfully
+
+2019-04-01 11:37:33 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_SURPDEV1/button_"), 5): Object 'Object Repository/Page_SURPDEV1/button_' is clickable
+
+2019-04-01 11:37:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_SURPDEV1/button_' is clickable
+
+2019-04-01 11:37:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_SURPDEV1/button_")): Object: 'Object Repository/Page_SURPDEV1/button_' is clicked on
+
+2019-04-01 11:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SURPDEV1/button_' is clicked on
+
+2019-04-01 11:37:33 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("1_test/ADM/Sync/core (1)/checkbox_export"), 5): Object 'Object Repository/1_test/ADM/Sync/core (1)/checkbox_export' is clickable
+
+2019-04-01 11:37:34 - [MESSAGE][PASSED] - Object 'Object Repository/1_test/ADM/Sync/core (1)/checkbox_export' is clickable
+
+2019-04-01 11:37:34 - [TEST_STEP][PASSED] - click(findTestObject("1_test/ADM/Sync/core (1)/checkbox_export")): Object: 'Object Repository/1_test/ADM/Sync/core (1)/checkbox_export' is clicked on
+
+2019-04-01 11:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/1_test/ADM/Sync/core (1)/checkbox_export' is clicked on
+
+2019-04-01 11:37:34 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("1_test/ADM/Sync/core (1)/run"), 5): Object 'Object Repository/1_test/ADM/Sync/core (1)/run' is clickable
+
+2019-04-01 11:37:34 - [MESSAGE][PASSED] - Object 'Object Repository/1_test/ADM/Sync/core (1)/run' is clickable
+
+2019-04-01 11:37:35 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/1_test/Page_SURPDEV/run")): click(findTestObject("Object Repository/1_test/Page_SURPDEV/run")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 1_test.run(1_test:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554107832431.run(TempTestSuite1554107832431.groovy:35)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1553676240331.run(Script1553676240331.groovy:57)
+	... 13 more
+
+
+2019-04-01 11:37:35 - [MESSAGE][WARNING] - Test object with id 'Object Repository/1_test/Page_SURPDEV/run' does not exist
+
+2019-04-01 11:37:35 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-04-01 11:37:35 - [MESSAGE][FAILED] - Unable to click on object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 1_test.run(1_test:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554107832431.run(TempTestSuite1554107832431.groovy:35)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1553676240331.run(Script1553676240331.groovy:57)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\1q\\Katalon Studio\\urmautotest\\Reports\\New Test Suite\\20190401_113712\\1554107855056.png]]
+
+2019-04-01 11:37:35 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/1_test/Page_SURPDEV/run")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 1_test.run(1_test:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554107832431.run(TempTestSuite1554107832431.groovy:35)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1553676240331.run(Script1553676240331.groovy:57)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2019-04-01 11:37:15 - [TEST_CASE][FAILED] - Test Cases/1_test: Test Cases/1_test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 1_test.run(1_test:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554107832431.run(TempTestSuite1554107832431.groovy:35)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1553676240331.run(Script1553676240331.groovy:57)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test2_revision" classname="Test Cases/test2_revision" status="PASSED">
+         <system-out><![CDATA[2019-04-01 11:37:37 - [TEST_CASE][PASSED] - Test Cases/test2_revision: Test Cases/test2_revision
+
+2019-04-01 11:37:39 - [TEST_STEP][PASSED] - openBrowser("https://urm.space/urmweb/system/login"): Browser is opened with url: 'https://urm.space/urmweb/system/login'
+
+2019-04-01 11:37:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-01 11:37:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-01 11:37:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://urm.space/urmweb/system/login'
+
+2019-04-01 11:37:46 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("1_test/login/login"), 5): Object 'Object Repository/1_test/login/login' is clickable
+
+2019-04-01 11:37:46 - [MESSAGE][PASSED] - Object 'Object Repository/1_test/login/login' is clickable
+
+2019-04-01 11:37:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1_test/login/login"), "man"): Text 'man' is set on object 'Object Repository/1_test/login/login'
+
+2019-04-01 11:37:46 - [MESSAGE][PASSED] - Text 'man' is set on object 'Object Repository/1_test/login/login'
+
+2019-04-01 11:37:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/1_test/login/password"), "cspISQ8CZDY="): Text ****** has been set on object 'Object Repository/1_test/login/password'
+
+2019-04-01 11:37:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/1_test/login/password'
+
+2019-04-01 11:37:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1_test/login/button_login")): Object: 'Object Repository/1_test/login/button_login' is clicked on
+
+2019-04-01 11:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/1_test/login/button_login' is clicked on
+
+2019-04-01 11:37:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("online-ROOK"), 5): Object 'Object Repository/online-ROOK' is visible
+
+2019-04-01 11:37:48 - [MESSAGE][PASSED] - Object 'Object Repository/online-ROOK' is visible
+
+2019-04-01 11:37:48 - [TEST_STEP][PASSED] - navigateToUrl("https://urm.space/urmweb/user/configuration/context/app/mysystem/Regression_test/view/revisions"): Navigate to 'https://urm.space/urmweb/user/configuration/context/app/mysystem/Regression_test/view/revisions' successfully
+
+2019-04-01 11:37:50 - [MESSAGE][PASSED] - Navigate to 'https://urm.space/urmweb/user/configuration/context/app/mysystem/Regression_test/view/revisions' successfully
+
+2019-04-01 11:37:50 - [TEST_STEP][PASSED] - var = verifyElementPresent(findTestObject("1_test/CONF/IS/PROD/REV/table_fixcontains_fix"), 5, OPTIONAL): Object 'Object Repository/1_test/CONF/IS/PROD/REV/table_fixcontains_fix' is present
+
+2019-04-01 11:37:50 - [MESSAGE][PASSED] - Object 'Object Repository/1_test/CONF/IS/PROD/REV/table_fixcontains_fix' is present
+
+2019-04-01 11:37:50 - [TEST_STEP][PASSED] - print(var): null
+
+2019-04-01 11:37:50 - [TEST_STEP][PASSED] - if (var == true): Delayed 2 second(s)
+
+2019-04-01 11:37:50 - [TEST_STEP][PASSED] - click(findTestObject("1_test/CONF/IS/PROD/REV/table_fix_rev")): Object: 'Object Repository/1_test/CONF/IS/PROD/REV/table_fix_rev' is clicked on
+
+2019-04-01 11:37:51 - [MESSAGE][PASSED] - Object: 'Object Repository/1_test/CONF/IS/PROD/REV/table_fix_rev' is clicked on
+
+2019-04-01 11:37:51 - [TEST_STEP][PASSED] - click(findTestObject("1_test/CONF/IS/PROD/REV/table_delete_revision")): Object: 'Object Repository/1_test/CONF/IS/PROD/REV/table_delete_revision' is clicked on
+
+2019-04-01 11:37:51 - [MESSAGE][PASSED] - Object: 'Object Repository/1_test/CONF/IS/PROD/REV/table_delete_revision' is clicked on
+
+2019-04-01 11:37:51 - [TEST_STEP][PASSED] - click(findTestObject("1_test/CONF/IS/PROD/REV/exec_delete_button")): Object: 'Object Repository/1_test/CONF/IS/PROD/REV/exec_delete_button' is clicked on
+
+2019-04-01 11:37:52 - [MESSAGE][PASSED] - Object: 'Object Repository/1_test/CONF/IS/PROD/REV/exec_delete_button' is clicked on
+
+2019-04-01 11:37:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-01 11:37:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-01 11:37:54 - [TEST_STEP][PASSED] - click(findTestObject("1_test/CONF/IS/PROD/REV/table_create_revision")): Object: 'Object Repository/1_test/CONF/IS/PROD/REV/table_create_revision' is clicked on
+
+2019-04-01 11:37:54 - [MESSAGE][PASSED] - Object: 'Object Repository/1_test/CONF/IS/PROD/REV/table_create_revision' is clicked on
+
+2019-04-01 11:37:54 - [TEST_STEP][PASSED] - setText(findTestObject("input_code"), "var"): Text 'var' is set on object 'Object Repository/input_code'
+
+2019-04-01 11:37:55 - [MESSAGE][PASSED] - Text 'var' is set on object 'Object Repository/input_code'
+
+2019-04-01 11:37:55 - [TEST_STEP][PASSED] - setText(findTestObject("input_name"), "var"): Text 'var' is set on object 'Object Repository/input_name'
+
+2019-04-01 11:37:55 - [MESSAGE][PASSED] - Text 'var' is set on object 'Object Repository/input_name'
+
+2019-04-01 11:37:55 - [TEST_STEP][PASSED] - click(findTestObject("1_test/CONF/IS/PROD/REV/run.execute")): Object: 'Object Repository/1_test/CONF/IS/PROD/REV/run.execute' is clicked on
+
+2019-04-01 11:37:56 - [MESSAGE][PASSED] - Object: 'Object Repository/1_test/CONF/IS/PROD/REV/run.execute' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-01 11:37:15 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/1_test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 1_test.run(1_test:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554107832431.run(TempTestSuite1554107832431.groovy:35)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1553676240331.run(Script1553676240331.groovy:57)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-04-01 11:37:15 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/1_test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 1_test.run(1_test:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554107832431.run(TempTestSuite1554107832431.groovy:35)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1553676240331.run(Script1553676240331.groovy:57)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

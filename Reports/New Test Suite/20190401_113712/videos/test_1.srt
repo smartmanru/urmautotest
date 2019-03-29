@@ -1,0 +1,52 @@
+1
+00:00:01,907 --> 00:00:01,937
+1. openBrowser("https://urm.space/urmweb/system/login")
+
+2
+00:00:11,807 --> 00:00:11,810
+5. waitForElementClickable(findTestObject("1_test/login/login"), 5)
+
+3
+00:00:12,399 --> 00:00:12,400
+9. setText(findTestObject("Object Repository/1_test/login/login"), "man")
+
+4
+00:00:12,873 --> 00:00:12,876
+13. setEncryptedText(findTestObject("Object Repository/1_test/login/password"), "cspISQ8CZDY=")
+
+5
+00:00:13,665 --> 00:00:13,668
+17. click(findTestObject("Object Repository/1_test/login/button_login"))
+
+6
+00:00:13,948 --> 00:00:13,950
+21. waitForElementVisible(findTestObject("online-ROOK"), 5)
+
+7
+00:00:14,773 --> 00:00:14,775
+25. navigateToUrl("https://urm.space/urmweb/administration/mirrors/view/mirror/core")
+
+8
+00:00:17,006 --> 00:00:17,009
+29. waitForElementClickable(findTestObject("Page_SURPDEV1/button_"), 5)
+
+9
+00:00:17,514 --> 00:00:17,517
+33. click(findTestObject("Page_SURPDEV1/button_"))
+
+10
+00:00:17,769 --> 00:00:17,769
+37. waitForElementClickable(findTestObject("1_test/ADM/Sync/core (1)/checkbox_export"), 5)
+
+11
+00:00:18,515 --> 00:00:18,516
+41. click(findTestObject("1_test/ADM/Sync/core (1)/checkbox_export"))
+
+12
+00:00:18,796 --> 00:00:18,797
+45. waitForElementClickable(findTestObject("1_test/ADM/Sync/core (1)/run"), 5)
+
+13
+00:00:18,929 --> 00:00:18,961
+49. click(findTestObject("Object Repository/1_test/Page_SURPDEV/run"))
+

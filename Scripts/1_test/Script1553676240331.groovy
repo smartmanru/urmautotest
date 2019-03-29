@@ -32,7 +32,14 @@ WebUI.waitForElementClickable(findTestObject('Page_SURPDEV1/button_'), 5)
 
 WebUI.click(findTestObject('Page_SURPDEV1/button_'))
 
-WebUI.check(findTestObject('1_test/Page_SURPDEV/checkbox_all'))
+not_run: WebUI.waitForElementClickable(findTestObject('1_test/ADM/Sync/core (1)/checkbox_all'), 5)
+
+not_run: WebUI.click(findTestObject('1_test/Page_SURPDEV/checkbox_all'))
+
+
+while (3) {
+	WebUI.sendKeys(findTestObject('Page_SURPDEV1/button_'),  Keys.chord(Keys.CONTROL, ‘TAB’))
+}
 
 WebUI.click(findTestObject('Object Repository/1_test/Page_SURPDEV/run'))
 

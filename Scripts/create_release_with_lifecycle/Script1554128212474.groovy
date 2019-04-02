@@ -13,6 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
+
+KeywordLogger log = new KeywordLogger()
 
 WebUI.openBrowser('https://urm.space/urmweb/system/login')
 
@@ -32,19 +35,21 @@ WebUI.click(findTestObject('Object Repository/release/button_create_release'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/release/enum_release_lifecycle'), '1', true)
 
-WebUI.getText(findTestObject('Object Repository/release/create_release_version'))
+WebUI.delay(5)
+
+'javascript search Xpath and extract value \r\n\r\n'
+rel_version = WebUI.executeJavaScript('return(document.evaluate("//*/input[@testid=\'urm-createversion-field\']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue).value', 
+    [])
+
+log.logWarning('The value is:=' + rel_version)
 
 WebUI.click(findTestObject('Object Repository/release/ex_button_create_rel'))
 
-WebUI.click(findTestObject('Object Repository/release/version_operation'))
+WebUI.navigateToUrl(('https://urm.space/urmweb/user/releases/context/app/mysystem/demo69/view/release/' + rel_version) + 
+    '/schedule')
 
-WebUI.click(findTestObject('Object Repository/release/version_rel_table'))
-
-WebUI.click(findTestObject('Object Repository/release/rel_lifecycle_menu'))
-
-WebUI.click(findTestObject('Object Repository/release/release_menu'))
-
-WebUI.click(findTestObject('Object Repository/release/menu_delete_rel'))
+WebUI.navigateToUrl(('https://urm.space/urmweb/user/releases/context/app/mysystem/demo69/view/release/' + rel_version) + 
+    '/drop')
 
 WebUI.click(findTestObject('Object Repository/release/table_buttom_del_release'))
 

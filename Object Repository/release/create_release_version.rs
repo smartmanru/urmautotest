@@ -4,6 +4,20 @@
    <name>create_release_version</name>
    <tag></tag>
    <elementGuidId>7d794ca1-f233-4bd6-8fde-debadc08980c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='o80c3b869']/div/div[4]/div[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@testid='urm-createversion-field']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
